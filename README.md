@@ -1,16 +1,27 @@
-# React + Vite
+👾 React Tic-Tac-Toe Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A classic implementation of the 3x3 grid game, Tic-Tac-Toe (or Noughts and Crosses), built using modern React best practices, including functional components and Hooks.
 
-Currently, two official plugins are available:
+The project demonstrates core concepts of state management, conditional rendering, and dynamic CSS styling for game visualization.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+✨ Features
 
-## React Compiler
+Standard 3x3 Gameplay: Players take turns placing 'X' or 'O' marks.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Dynamic Status: Clearly displays whose turn is next.
 
-## Expanding the ESLint configuration
+Winner Detection: Automatically detects three in a row (horizontal, vertical, or diagonal).
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Winning Line Highlight: The three squares forming the winning line are visually highlighted with a background change.
+
+Tie Game Detection: Automatically detects and announces a draw when all squares are filled, and no winner is found.
+
+Reset Game Button: A simple button allows players to reset the board and start a new game instantly.
+
+🛠️ Technology Stack
+
+React: Functional Components and Hooks (useState).
+
+JavaScript: Core game logic.
+
+CSS: Styling for the board layout and game elements.
